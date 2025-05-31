@@ -20,6 +20,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     
    
     
@@ -28,7 +29,7 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
- 
+ width: 100%;
   top: 220px;
   position: fixed;
   height: 50px;
@@ -76,7 +77,6 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 10px;
-   
     background-image: url('./assets/logos/logo-PAto.png');
     background-size:cover;
     background-position:left;
@@ -106,9 +106,6 @@ h2{
 }
   
   
- 
-
-
 h3{
   color: rgba(238, 160, 14, 0.938);
   padding: 15px;
@@ -143,7 +140,8 @@ p{
   .item1 {
     display: flex;
     gap: 20px;
-     border-bottom: rgb(235, 209, 209) 2px solid;
+    width: 100%;
+    border-bottom: rgb(235, 209, 209) 2px solid;
     padding: 20px;
     background-image: url('');
 
@@ -164,7 +162,6 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-size: 17px;
     font-weight: bold;
     color: rgba(240, 159, 9, 0.938);
@@ -178,10 +175,18 @@ p{
     color: rgb(255, 66, 66);
     font-weight: bold;
     padding: 10px;
+    font-size: 15px;
   }
   
   .slider-links a.active {
     color: orange;
     font-weight: bold;
     border-bottom: 2px solid orange;
+  }
+
+  @media(max-width: 600px) {
+  .slider-links a {
+    font-size: 10px;
+  }
+    
   }
