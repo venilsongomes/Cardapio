@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+  color: rgba(238, 160, 14, 0.938);
+  padding: 15px;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.nav01{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  top: 220px;
+  position: fixed;
+  height: 50px;
+  background:#F4F4F4;
+  
+}
+
+.menu{
+  display: flex;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  & ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+  
+
+    & a{
+      text-decoration: none;
+      color: rgb(240, 95, 95);
+    }
+    & a:hover{
+      color: #fff;
+      background: rgba(238, 160, 14, 0.938);
+      padding: 3px;
+      border-radius: 2px;
+    }
+  }
+  & .logo{
+    
+    display: flex;  
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   
+    background-image: url('./assets/logos/logo-PAto.png');
+    background-size:cover;
+    background-position:left;
+    
+    
+   
+
+    & .img{
+      width: 50%;
+      height: 50%;
+      border-radius: 50%;
+      
+    }
+    
+  }
+ 
+}
+
+
+.cardapio{
+
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  flex-direction: column;
+  margin-top: 300px;
+}
+  
+  
+ 
+
+
+h3{
+  color: rgba(238, 160, 14, 0.938);
+  padding: 15px;
+}
+h2{
+  text-align: left;
+  
+}
+h1{
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 10px;
+}
+
+ 
+  img{
+    width: 80px;
+    height: 80px;
+  }
+
+.img{
+  width: 80px;
+  height: 80px;
+  background-image: url('./assets/logos/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+  .item1 {
+    display: flex;
+    gap: 20px;
+     border-bottom: rgb(235, 209, 209) 2px solid;
+    padding: 20px;
+    background-image: url('');
+
+    & p{
+      margin-bottom: 3px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    & h1{
+      font-size: 15px;
+      font-weight: bold;
+    }
+    
+  }
+
+ 
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(240, 159, 9, 0.938);
+    padding: 20px;
+
+  }
+  
+
+  .slider-links a {
+    text-decoration: none;
+    color: rgb(255, 66, 66);
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .slider-links a.active {
+    color: orange;
+    font-weight: bold;
+    border-bottom: 2px solid orange;
+  }
