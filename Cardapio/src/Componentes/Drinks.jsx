@@ -7,16 +7,16 @@ import red from '../assets/Drinks/red.png'
 function Drinks(){
     return(
        <div className="" id="drinks">
-                   <h2>Drinks</h2>
+                  
        
                    <section className="item">
-       
+        <h1>Drinks</h1>
        
        
                      <div className="item1">
                        <img src={red} alt="" />
                        <div>
-                         <h1>RED LABEL - Dose</h1>
+                         <h2>RED LABEL - Dose</h2>
                          <br />
                          R$ 10,00
                        </div>
@@ -25,7 +25,7 @@ function Drinks(){
                     <div className="item1">
                        <img src={cachaca} alt="" />
                        <div>
-                         <h1>Cachaça - Dose</h1>
+                         <h2>Cachaça - Dose</h2>
                          <br />
                          R$ 10,00
                        </div>
@@ -35,7 +35,7 @@ function Drinks(){
                      <div className="item1">
                        <img src={conhaque} alt="" />
                        <div>
-                         <h1>Conhaque - Dose</h1>
+                         <h2>Conhaque - Dose</h2>
                          <br />
                          R$ 10,00
                        </div>
@@ -44,7 +44,7 @@ function Drinks(){
                      <div className="item1">
                        <img src={campari} alt="" />
                        <div>
-                         <h1>Campari - Doses</h1>
+                         <h2>Campari - Doses</h2>
                          <br />
                          R$ 10,00
                        </div>

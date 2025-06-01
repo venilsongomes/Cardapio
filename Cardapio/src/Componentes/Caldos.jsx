@@ -7,12 +7,14 @@ import vacaAtolada from '../assets/Caldo/vacaAtolada.webp'
 function Caldos() {
   return (
      <div className="" id="caldos">
-                <h2>Caldos</h2>
+                
                 <section className="item">
+                  <h1>Caldos</h1>
+
                   <div className="item1">
                     <img src={caldo} alt="" />
                     <div>
-                      <h1>Caldo de Frango</h1>
+                      <h2>Caldo de Frango</h2>
                       Acompanha Torrada + torresmo.
                       <br />
                       R$ 10,00
@@ -22,7 +24,7 @@ function Caldos() {
                   <div className='item1'> 
                     <img src={vacaAtolada} alt="" />
                     <div>
-                      <h1>Vaca Atolada</h1>
+                      <h2>Vaca Atolada</h2>
                       Acompanha Torrada + torresmo.
                       <br />
                       R$ 10,00
@@ -32,7 +34,7 @@ function Caldos() {
                      <div className='item1'> 
                     <img src={mocoto} alt="" />
                     <div>
-                      <h1>Caldo de Mocotó</h1>
+                      <h2>Caldo de Mocotó</h2>
                       Acompanha Torrada + torresmo.
                       <br />
                       R$ 10,00

@@ -1,46 +1,25 @@
 *{
   margin: 0;
   padding: 0;
-  
+  overflow-x: hidden;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
+ 
 
 }
-body{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-h2{
-  color: rgba(238, 160, 14, 0.938);
-  padding: 15px;
-}
+
 .Container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    
-   
-    
-}
-.nav01{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- width: 100%;
-  top: 220px;
-  position: fixed;
-  height: 50px;
-  background:#F4F4F4;
-  
 }
 
 .menu{
   display: flex;
-  position: fixed;
   top: 0;
+  position: fixed;
   background: #fff;
   width: 100%;
   flex-direction: column;
@@ -72,8 +51,8 @@ h2{
   & .logo{
     
     display: flex;  
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -95,37 +74,40 @@ h2{
  
 }
 
+   .nav01{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  top: 230px;
+
+  height: 50px;
+  background:#f0eded;
+  
+}
+
 
 .cardapio{
 
   display: flex;
-  width: 100%;
-  padding: 10px;
+  max-width: 500px;
+  align-items: center;
+  padding:0  10px 0 10px;
   flex-direction: column;
-  margin-top: 300px;
-}
-  
-  
-h3{
-  color: rgba(238, 160, 14, 0.938);
-  padding: 15px;
-}
-h2{
-  text-align: left;
-  
-}
-h1{
-  margin-bottom: 10px;
-}
-p{
-  margin-top: 10px;
-}
+  margin-top: 250px;
 
- 
-  img{
+  & img{
     width: 80px;
     height: 80px;
   }
+}
+  h1{
+      color: rgba(240, 159, 9, 0.938);
+      font-size: 25px;
+      padding-bottom: 30px;
+   }
+  
+
 
 .img{
   width: 80px;
@@ -136,13 +118,23 @@ p{
   
 }
 
+.item{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-items: center;
+padding-left: 10px;
+padding-top: 25px;
+padding-right: 10px;
+}
 
   .item1 {
     display: flex;
     gap: 20px;
     width: 100%;
-    border-bottom: rgb(235, 209, 209) 2px solid;
-    padding: 20px;
+    border-bottom:#f7cd52 2px solid;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
     background-image: url('');
 
     & p{
@@ -150,25 +142,33 @@ p{
       font-size: 13px;
       font-weight: bold;
     }
-    & h1{
-      font-size: 15px;
-      font-weight: bold;
-    }
+    
+    & h2{
+     color: #011F26;
+     padding: 10px;
+     font-size: 20px;
+  
+      }
     
   }
 
  
   footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 17px;
     font-weight: bold;
     color: rgba(240, 159, 9, 0.938);
     padding: 20px;
 
   }
-  
+  .slider-links {
+  display: flex;
+  align-items: center; /* ou center, se preferir centralizado */
+  text-align: center;
+  padding: 9px;
+  margin-left: 20px; 
+  gap: 10px;        
+}
 
   .slider-links a {
     text-decoration: none;
@@ -176,6 +176,9 @@ p{
     font-weight: bold;
     padding: 10px;
     font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+
   }
   
   .slider-links a.active {
@@ -183,9 +186,20 @@ p{
     font-weight: bold;
     border-bottom: 2px solid orange;
   }
+  .Slider{
+   display: flex;
+   justify-content: space-between;
+
+   & a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+   }
+  }
 
   @media(max-width: 600px) {
-  .slider-links a {
+  slider-links a {
     font-size: 10px;
   }
     

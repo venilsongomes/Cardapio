@@ -3,6 +3,7 @@ import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Sliiderr from './Slider.jsx'
+import Sliders from './PaginaGit.jsx';
 import Jantinha from './Componentes/Jantinha.jsx';
 import Caldos from './Componentes/Caldos.jsx';
 import Espetos from './Componentes/Espetos.jsx';
@@ -20,9 +21,10 @@ function App() {
 
         <nav className="menu">
           <div className="logo"></div>
+          
           <div className="nav01">
-            
-            <Sliiderr></Sliiderr>
+             <Sliders></Sliders>
+           
           </div>
         </nav>
         

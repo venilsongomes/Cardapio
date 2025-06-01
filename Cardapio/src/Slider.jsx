@@ -8,11 +8,11 @@ import Slider from "react-slick";
       const [activeSection, setActiveSection] = useState('');
 
       var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 400,
         slidesToShow: 4,
-        slidesToScroll: 0.5
+        slidesToScroll: 1
       }
     
       useEffect(() => {
@@ -49,6 +49,7 @@ import Slider from "react-slick";
       <a href="#drinks" className={activeSection === 'drinks' ? 'active' : ''}>Drinks</a>
       <a href="#porcoes" className={activeSection === 'porcoes' ? 'active' : ''}>Porções</a>
       <a href="#naoAlcool" className={activeSection === 'naoAlcool' ? 'active' : ''}>Não alcoólico</a>
+      
      
     </div>
    

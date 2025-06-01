@@ -1,0 +1,23 @@
+
+h2{
+  color: rgba(238, 160, 14, 0.938);
+  padding: 15px;
+}
+
+h2{
+  text-align: left;
+  
+}
+h1{
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 10px;
+}
+
+ 
+  img{
+    width: 80px;
+    height: 80px;
+  }
+  

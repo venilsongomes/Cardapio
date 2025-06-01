@@ -13,54 +13,55 @@ import agua from '../assets/sem-alcool/agua.jpg';
 function NaoAlcool() {
     return (
         <div id='naoAlcool'>
-            <h2> Não Alcoólico</h2>
-            <section >
+            
+            <section className='item' >
+                <h1> Não Alcoólico</h1>
                 <div className="item1">
                     <img src={coca} alt="" />
                     <div>
-                        <h1>Coca Cola</h1>
+                        <h2>Coca Cola</h2>
                         R$ 5,00
                     </div>
                 </div>
                 <div className="item1">
                     <img src={redbull} alt="" />
                     <div>
-                        <h1>Energetico RedBull</h1>
+                        <h2>Energetico RedBull</h2>
                         R$ 5,00
                     </div>
                 </div>
                 <div className="item1">
                     <img src={sucoCaju} alt="" />
                     <div>
-                        <h1>Suco Natural - caju</h1>
+                        <h2>Suco Natural - caju</h2>
                         R$ 5,00
                     </div>
                 </div>
                 <div className="item1">
                     <img src={sucoLaranja} alt="" />
                     <div>
-                        <h1>Suco Laranja</h1>
+                        <h2>Suco Laranja</h2>
                         R$ 5,00
                     </div>
                 </div>
                 <div className="item1">
                     <img src={sucoUva} alt="" />
                     <div>
-                        <h1>Água Mineral</h1>
+                        <h2>Água Mineral</h2>
                         R$ 5,00
                     </div>
                 </div>
                 <div className="item1">
                     <img src={sucoCaju} alt="" />
                     <div>
-                        <h1>Suco - Jará</h1>
+                        <h2>Caipirosca</h2>
                         R$ 5,00
                     </div>
                 </div>
                 <div className="item1">
                     <img src={agua} alt="" />
                     <div>
-                        <h1>Água Mineral</h1>
+                        <h2>Água Mineral</h2>
                         R$ 5,00
                     </div>
                 </div>
