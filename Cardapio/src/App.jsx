@@ -23,7 +23,7 @@ function App() {
           <div className="logo"></div>
           
           <div className="nav01">
-             <Sliders></Sliders>
+             <Sliiderr></Sliiderr>
            
           </div>
         </nav>

@@ -9,8 +9,8 @@ import Slider from "react-slick";
 
       var settings = {
         dots: true,
-        infinite: true,
-        speed: 400,
+        infinite: false,
+        speed: 1000,
         slidesToShow: 4,
         slidesToScroll: 1
       }
@@ -39,21 +39,15 @@ import Slider from "react-slick";
 
 
   return (
-    
-     <div className="slider-links">
-      
-      <a href="#comidas" className={activeSection === 'comidas' ? 'active' : ''}>Jantinha</a>
+    <Slider className="slider-links" {...settings}>
+   <a href="#comidas" className={activeSection === 'comidas' ? 'active' : ''}>Jantinha</a>
       <a href="#espeto" className={activeSection === 'espeto' ? 'active' : ''}>Espetos</a>
       <a href="#bebidas" className={activeSection === 'bebidas' ? 'active' : ''}>Cervejas</a>
       <a href="#caldos" className={activeSection === 'caldos' ? 'active' : ''}>Caldos</a>
       <a href="#drinks" className={activeSection === 'drinks' ? 'active' : ''}>Drinks</a>
       <a href="#porcoes" className={activeSection === 'porcoes' ? 'active' : ''}>Porções</a>
       <a href="#naoAlcool" className={activeSection === 'naoAlcool' ? 'active' : ''}>Não alcoólico</a>
-      
-     
-    </div>
-   
-   
+    </Slider>
   );
 }
 

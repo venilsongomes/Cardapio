@@ -13,10 +13,12 @@ return (
         <section className="item">
 
             <h1>Jantinha + Espetos</h1>
+
+
             <div className="item1">
-                <div className="img">
+                
                     <img src={janta} alt="" />
-                </div>
+                
                 <div>
                     <h2>Jantinha Picanha</h2>
                     Acompanha arroz, tropeiro, mandioca e vinagrete.
