@@ -158,9 +158,14 @@ padding-right: 10px;
     padding: 20px;
 
   }
-  .slider-links{
-    overflow: hidden;
-  }
+   .slider-links {
+  display: flex;
+  align-items: center; /* ou center, se preferir centralizado */
+  text-align: center;
+  padding: 9px;
+  margin-left: 20px; 
+  gap: 10px;        
+}
   
   .slider-links a {
     text-decoration: none;
