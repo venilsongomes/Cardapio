@@ -41,7 +41,7 @@ function SimpleSlider() {
       <li><a href="#caldos" className={activeSection === 'caldos' ? 'active' : ''}>Caldos</a></li>
       <li><a href="#drinks" className={activeSection === 'drinks' ? 'active' : ''}>Doses</a></li>
       <li><a href="#porcoes" className={activeSection === 'porcoes' ? 'active' : ''}>Porções</a></li>
-      <li><a href="#naoAlcool" className={activeSection === 'naoAlcool' ? 'active' : ''}>Não alcoólico</a></li>
+      <li><a href="#naoAlcool" className={activeSection === 'naoAlcool' ? 'active' : ''}>Outros</a></li>
     </Slider>
   );
 }
