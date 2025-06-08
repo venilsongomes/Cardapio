@@ -15,9 +15,9 @@ function Caldos() {
                     <img src={caldo} alt="" />
                     <div>
                       <h2>Caldo de Frango</h2>
-                      Acompanha Torrada + torresmo.
+                     Acompanha Torrada, Cheiro Verde e Torresmo.
                       <br />
-                      R$ 10,00
+                      R$ 15,00
                     </div>
                   </div>
     
@@ -25,19 +25,19 @@ function Caldos() {
                     <img src={vacaAtolada} alt="" />
                     <div>
                       <h2>Vaca Atolada</h2>
-                      Acompanha Torrada + torresmo.
+                      Acompanha Torrada, Cheiro Verde e Torresmo.
                       <br />
-                      R$ 10,00
+                      R$ 15,00
                       </div>
                     
                      </div>
                      <div className='item1'> 
                     <img src={mocoto} alt="" />
                     <div>
-                      <h2>Caldo de Mocotó</h2>
-                      Acompanha Torrada + torresmo.
+                      <h2>Feijão</h2>
+                      Acompanha Torrada, Cheiro Verde e Torresmo.
                       <br />
-                      R$ 10,00
+                      R$ 15,00
                       </div>
                     
                      </div>

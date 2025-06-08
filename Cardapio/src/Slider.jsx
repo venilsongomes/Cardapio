@@ -12,7 +12,9 @@ import Slider from "react-slick";
         infinite: false,
         speed: 1000,
         slidesToShow: 7,
-        slidesToScroll: 1
+        slidesToScroll: 3,
+        swipeToSlide: true
+
       }
     
       useEffect(() => {
@@ -24,7 +26,7 @@ import Slider from "react-slick";
             const element = document.getElementById(section);
             if (element) {
               const { offsetTop, offsetHeight } = element;
-              if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+              if (scrollPosition >= offsetTop && scrollPosition < offsetTop - offsetHeight) {
                 setActiveSection(section);
               }
             }
@@ -39,16 +41,17 @@ import Slider from "react-slick";
 
 
   return (
-    <Slider className="slider-links" {...settings}>
-   <a href="#comidas" className={activeSection === 'comidas' ? 'active' : ''}>Jantinha</a>
-      <a href="#espeto" className={activeSection === 'espeto' ? 'active' : ''}>Espetos</a>
-      <a href="#bebidas" className={activeSection === 'bebidas' ? 'active' : ''}>Cervejas</a>
-      <a href="#caldos" className={activeSection === 'caldos' ? 'active' : ''}>Caldos</a>
-      <a href="#drinks" className={activeSection === 'drinks' ? 'active' : ''}>Drinks</a>
-      <a href="#porcoes" className={activeSection === 'porcoes' ? 'active' : ''}>Porções</a>
-      <a href="#naoAlcool" className={activeSection === 'naoAlcool' ? 'active' : ''}>Outros</a>
-    </Slider>
-  );
+   
+  <Slider className="slider-links" {...settings}>
+    <div><a href="#comidas" className={activeSection === 'comidas' ? 'active' : ''}>Jantinha</a></div>
+    <div><a href="#espeto" className={activeSection === 'espeto' ? 'active' : ''}>Espetos</a></div>
+    <div><a href="#bebidas" className={activeSection === 'bebidas' ? 'active' : ''}>Cervejas</a></div>
+    <div><a href="#caldos" className={activeSection === 'caldos' ? 'active' : ''}>Caldos</a></div>
+    <div><a href="#drinks" className={activeSection === 'drinks' ? 'active' : ''}>Drinks</a></div>
+    <div><a href="#porcoes" className={activeSection === 'porcoes' ? 'active' : ''}>Porções</a></div>
+    <div><a href="#naoAlcool" className={activeSection === 'naoAlcool' ? 'active' : ''}>Outros</a></div>
+  </Slider>
+);
 }
 
 export default Slideer;

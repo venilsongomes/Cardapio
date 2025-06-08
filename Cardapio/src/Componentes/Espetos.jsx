@@ -13,12 +13,14 @@ function Espetos(){
         <div className="linha" id="espeto">
            
             <section className="item">
+
                <h1>Espetos</h1>
+
               <div className="item1">
                 <img src={espeto4} alt="" />
                 <div>
                   <h2>Picanha Montada</h2>
-                  R$ 10,00
+                  R$ 12,00
                   <br />
                 </div>
               </div>
@@ -59,6 +61,52 @@ function Espetos(){
                   R$ 10,00
                 </div>
               </div>
+
+            <div className="item1">
+                <img src={espeto3} alt="" />
+                <div>
+                  <h2>Medalhão</h2>
+                  R$ 15,00
+                </div>
+              </div>
+
+              <div className="item1">
+                <img src={espeto3} alt="" />
+                <div>
+                  <h2>Cupin</h2>
+                  R$ 12,00
+                </div>
+              </div>
+
+              <div className="item1">
+                <img src={espeto3} alt="" />
+                <div>
+                  <h2>Asinha de Frango</h2>
+                  R$ 12,00
+                </div>
+              </div>
+
+              <div className="item1">
+                <img src={espeto3} alt="" />
+                <div>
+                  <h2>Kafta de Frango</h2>
+                  R$ 12,00
+                </div>
+              </div>
+
+              <div className="item1">
+                <img src={espeto3} alt="" />
+                <div>
+                  <h2>Kafta Bovina</h2>
+                  R$ 12,00
+                </div>
+              </div>
+
+
+
+
+
+
             </section>
           </div>
     );

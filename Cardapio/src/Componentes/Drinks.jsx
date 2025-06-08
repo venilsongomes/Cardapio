@@ -25,9 +25,10 @@ function Drinks(){
                     <div className="item1">
                        <img src={cachaca} alt="" />
                        <div>
-                         <h2>Cachaça - Dose</h2>
+                         <h2>Cachaças - Dose</h2>
+                         Ypioca, da Roça, 51, Gengibre, São João, Para Tudo.
                          <br />
-                         R$ 10,00
+                         R$ 04,00
                        </div>
                      </div>
        
@@ -36,17 +37,18 @@ function Drinks(){
                        <img src={conhaque} alt="" />
                        <div>
                          <h2>Conhaque - Dose</h2>
+                         Presidente
                          <br />
-                         R$ 10,00
+                         R$ 05,00
                        </div>
                      </div>
        
                      <div className="item1">
                        <img src={campari} alt="" />
                        <div>
-                         <h2>Campari - Doses</h2>
+                         <h2>Campari e Smirnoff -  Dose</h2>
                          <br />
-                         R$ 10,00
+                         R$ 12,00
                        </div>
                      </div>
        
