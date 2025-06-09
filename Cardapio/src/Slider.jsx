@@ -11,31 +11,31 @@ import Slider from "react-slick";
         dots: false,
         infinite: false,
         speed: 1000,
-        slidesToShow: 7,
-        slidesToScroll: 3,
-        swipeToSlide: true
+        slidesToShow: 5,
+        slidesToScroll: 3
+    
 
       }
     
       useEffect(() => {
-        const handleScroll = () => {
-          const sections = ['comidas', 'espeto', 'bebidas', 'caldos', 'drinks', 'porcoes', 'naoAlcool'];
-          const scrollPosition = window.scrollY + window.innerHeight / 2;
-    
-          sections.forEach((section) => {
-            const element = document.getElementById(section);
-            if (element) {
-              const { offsetTop, offsetHeight } = element;
-              if (scrollPosition >= offsetTop && scrollPosition < offsetTop - offsetHeight) {
-                setActiveSection(section);
-              }
-            }
-          });
-        };
-    
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-      }, []);
+         const handleScroll = () => {
+           const sections = ['comidas', 'espeto', 'bebidas', 'caldos', 'drinks', 'porcoes', 'naoAlcool'];
+           const scrollPosition = window.scrollY + window.innerHeight / 2;
+     
+           sections.forEach((section) => {
+             const element = document.getElementById(section);
+             if (element) {
+               const { offsetTop, offsetHeight } = element;
+               if (scrollPosition >= offsetTop && scrollPosition > offsetTop + offsetHeight) {
+                 setActiveSection(section);
+               }
+             }
+           });
+         };
+     
+         window.addEventListener('scroll', handleScroll);
+         return () => window.removeEventListener('scroll', handleScroll);
+       }, []);
 
 
 
