@@ -3,7 +3,11 @@
   padding: 0;
   width: 100%;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 
+}
+body{
+overflow-x: hidden;
 }
 
 .Container{
@@ -75,7 +79,7 @@
   justify-content: left;
   align-items: center;
   top: 230px;
-  max-width: 500px;
+  
   height: 50px;
   background:#ece9ea;
   
@@ -103,8 +107,6 @@
       padding-bottom: 30px;
    }
   
-
-
 .img{
   width: 80px;
   height: 80px;
@@ -158,7 +160,7 @@ padding-right: 10px;
 
   }
 
-  .slider-links {
+  slider-links {
   display: flex;
   margin-left: 20px;
   list-style: none;

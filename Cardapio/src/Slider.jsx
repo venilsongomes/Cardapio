@@ -10,9 +10,10 @@ import Slider from "react-slick";
       var settings = {
         dots: false,
         infinite: false,
-        speed: 1000,
-        slidesToShow: 5,
-        slidesToScroll: 3
+        speed:500,
+        slidesToShow: 4,
+        slidesToScroll:1,
+        arrows:false
     
 
       }
@@ -26,7 +27,7 @@ import Slider from "react-slick";
              const element = document.getElementById(section);
              if (element) {
                const { offsetTop, offsetHeight } = element;
-               if (scrollPosition >= offsetTop && scrollPosition > offsetTop + offsetHeight) {
+               if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
                  setActiveSection(section);
                }
              }
