@@ -3,7 +3,7 @@
   padding: 0;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+ 
 
 }
 body{
@@ -79,7 +79,6 @@ overflow-x: hidden;
   justify-content: left;
   align-items: center;
   top: 230px;
-  
   height: 50px;
   background:#ece9ea;
   
@@ -89,7 +88,7 @@ overflow-x: hidden;
 .cardapio{
 
   display: flex;
-  max-width: 500px;
+  max-width: 450px;
   align-items: center;
   padding:0  10px 0 10px;
   flex-direction: column;
