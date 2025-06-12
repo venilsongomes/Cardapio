@@ -8,7 +8,7 @@ function Jantinha() {
 
 
 return (
-    <div className="linha" id="comidas">
+    
         
         <section className="item">
 
@@ -81,7 +81,6 @@ return (
                 </div>
             </div>
         </section>
-    </div>
     );
 }
 

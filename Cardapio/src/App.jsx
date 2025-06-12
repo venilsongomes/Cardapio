@@ -19,26 +19,24 @@ function App() {
     <>
       <section className="Container">
 
-        <nav className="menu">
+        <div className="menu">
           <div className="logo"></div>
           
-          <div className="nav01">
-             <Sliiderr></Sliiderr>
+          <nav className="nav01">
+           <ul>
+            <li> <a href="">Jantinha</a></li>
+            <li> <a href="">Espetos</a></li>
+            <li> <a href="">Bebidas</a></li>
+            <li> <a href="">Caldos</a></li>
+            <li> <a href="">Outros</a></li>
+           </ul>
            
-          </div>
-        </nav>
+          </nav>
+        </div>
         
        
         <div className="cardapio">
           <Jantinha></Jantinha>
-          <Espetos></Espetos>
-          <Cervejas></Cervejas>
-          <Caldos></Caldos>
-          <Drinks></Drinks>
-          <Porcoes></Porcoes>
-         <NaoAlcool></NaoAlcool>
-
-
         </div>
 
         <footer>

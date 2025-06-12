@@ -1,30 +1,29 @@
 *{
   margin: 0;
   padding: 0;
-  width: 100%;
   font-family: 'Poppins', sans-serif;
  
 
 }
 body{
-overflow-x: hidden;
+  overflow-x: hidden;
 }
+
 
 .Container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     background:rgb(244, 244, 244);
 }
 
 .menu{
   display: flex;
   top: 0;
+  width: 500px;
   position: fixed;
-  background:rgb(244, 244, 244);
-  width: 450px;
+  background:rgb(255, 255, 255);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -33,11 +32,8 @@ overflow-x: hidden;
 
   & ul{
     display: flex;
-    gap: 10px;
     list-style: none;
-    padding: 5px;
     font-weight: bold;
-    font-size: 15px;
   
 
     & a{
@@ -76,11 +72,24 @@ overflow-x: hidden;
 
    .nav01{
   display: flex;
-  justify-content: left;
+  width: 500px;
+  justify-content: center;
   align-items: center;
   top: 230px;
   height: 50px;
   background:#ece9ea;
+
+
+  & ul{
+    display: flex;
+    gap: 14px;
+  }
+  & a {
+    text-decoration: none;
+    color: rgb(255, 66, 66);
+    font-weight: bold;
+    font-size: 15px;
+  }
   
 }
 
@@ -88,8 +97,8 @@ overflow-x: hidden;
 .cardapio{
 
   display: flex;
-  width: 450px;
-  align-items: center;
+  max-width: 500px;
+  justify-content: left;
   flex-direction: column;
   margin-top: 300px;
   
@@ -97,6 +106,7 @@ overflow-x: hidden;
   & img{
     width: 80px;
     height: 80px;
+    
   }
 }
   h1{
@@ -119,7 +129,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding-top: 25px;
-padding-right: 10px;
+padding: 10px;
+
 }
 
   .item1 {
@@ -139,40 +150,27 @@ padding-right: 10px;
     
     & h2{
      color: #011F26;
-margin-bottom: 10px;
+     margin-bottom: 10px;
      font-size: 20px;
   
       }
     
   }
 
- 
-  footer{
-    text-align: center;
-    font-size: 17px;
-    font-weight: bold;
-    color: rgba(240, 159, 9, 0.938);
-    padding: 20px;
-
+  .slider-links{
+    padding: 0 2px;
+    display: inline-block;
   }
 
-  slider-links {
-  display: flex;
-  margin-left: 20px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  white-space: nowrap; 
-  }
-  
   .slider-links a {
+   
+  
     text-decoration: none;
     color: rgb(255, 66, 66);
     font-weight: bold;
-    padding: 10px;
-    font-size: 13px;
-    font-weight: bold;
-    padding-left: 3px;
+    font-size: 12px;
+   
+    
 
   }
   
@@ -181,18 +179,18 @@ margin-bottom: 10px;
     font-weight: bold;
     border-bottom: 2px solid orange;
   }
-  .slider-links{
-  
 
-   & a{
-    text-decoration: none;
-    font-size: 13px;
+
+
+  footer{
+    text-align: center;
+    font-size: 17px;
     font-weight: bold;
-    color: red;
-   }
+    color: rgba(240, 159, 9, 0.938);
+    padding: 20px;
+
   }
   
-
   @media(max-width: 600px) {
   
     
