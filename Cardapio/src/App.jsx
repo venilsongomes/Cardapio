@@ -3,7 +3,6 @@ import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Sliiderr from './Slider.jsx'
-
 import Jantinha from './Componentes/Jantinha.jsx';
 import Caldos from './Componentes/Caldos.jsx';
 import Espetos from './Componentes/Espetos.jsx';
@@ -24,11 +23,12 @@ function App() {
           
           <nav className="nav01">
            <ul>
-            <li> <a href="">Jantinha</a></li>
-            <li> <a href="">Espetos</a></li>
-            <li> <a href="">Bebidas</a></li>
-            <li> <a href="">Caldos</a></li>
-            <li> <a href="">Outros</a></li>
+            <li> <a href="#jantinha">Jantinha</a></li>
+            <li> <a href="#espetos">Espetos</a></li>
+            <li> <a href="#bebidas">Bebidas</a></li>
+            <li> <a href="#caldos">Caldos</a></li>
+            <li> <a href="#outros">Outros</a></li>
+            <li> <a href="#outros">Drinks</a></li>
            </ul>
            
           </nav>
@@ -37,6 +37,12 @@ function App() {
        
         <div className="cardapio">
           <Jantinha></Jantinha>
+          <Espetos></Espetos>
+          <Cervejas></Cervejas>
+          <Drinks></Drinks>
+          <Caldos></Caldos>
+          <Porcoes></Porcoes>
+          
         </div>
 
         <footer>

@@ -10,7 +10,7 @@ function Espetos(){
     
     
     return(
-        <div className="linha" id="espeto">
+        <div className="linha" id="espetos">
            
             <section className="item">
 
