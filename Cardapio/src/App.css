@@ -42,9 +42,7 @@ body{
       text-decoration: none;
       color: rgb(240, 95, 95);
     }
-    & a:hover{
-      
-    }
+
   }
   & .logo{
     
@@ -92,7 +90,6 @@ body{
   }
   
 }
-
 
 .cardapio{
 
@@ -152,7 +149,7 @@ scroll-margin-top: 300px;
     
     & h2{
      color: rgb(14, 13, 13);
-     margin-bottom: 10px;
+     margin-bottom: 14px;
      font-size: 20px;
   
       }
@@ -163,18 +160,6 @@ scroll-margin-top: 300px;
     padding: 0 2px;
     display: inline-block;
   }
-
-  nav01 a {
-   
-  
-    text-decoration: none;
-    color: rgb(255, 66, 66);
-    font-weight: bold;
-    font-size: 12px;
-   
-    
-
-  }
   
   .nav01 a.active {
     color: orange;
@@ -182,25 +167,19 @@ scroll-margin-top: 300px;
     border-bottom: 2px solid orange;
   }
 
-
-
   footer{
     text-align: center;
     font-size: 17px;
     font-weight: bold;
+    padding-bottom: 29px;
     color: rgba(240, 159, 9, 0.938);
-    padding: 20px;
+    
 
   }
 
-  #jantinha, #espetos, #bebidas, #caldos, #outros, #drinks{
+  #jantinha, #espetos, #bebidas, #caldos, #outros, #porcoes{
   scroll-margin-top: 300px;
 }
-  
-  @media(max-width: 600px) {
-  
-    
-  }
 
 
   

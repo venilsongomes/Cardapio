@@ -3,6 +3,14 @@ import frango from '../assets/Porcoes/passarinha.jpg'
 import cheddar from '../assets/Porcoes/cheddar.jpg'
 import batata from '../assets/Porcoes/batata-frita.jpg'
 import telapia from '../assets/Porcoes/telapia.jpg'
+import pastel from '../assets/Porcoes/pastel.svg'
+import peixe from '../assets/Porcoes/peixe.svg'
+import peixinho from '../assets/Porcoes/peixinho.svg'
+import quibe from '../assets/Porcoes/quibe.svg'
+import Salada from '../assets/Porcoes/salada.svg'
+import bolo from '../assets/Porcoes/bolo.svg'
+import arroz from '../assets/Porcoes/arroz.svg'
+import feijao from '../assets/Porcoes/tropeiro.svg'
 
 
 function Porcoes() {
@@ -15,7 +23,7 @@ function Porcoes() {
           <img src={frango} alt="Frango a passarinha" />
           <div>
             <h2>Frango a passarinha</h2>
-            Acompanha arroz, tropeiro, mandioca e vinagrete.
+            
             <br />
             R$ 32,00
           </div>
@@ -24,7 +32,7 @@ function Porcoes() {
         <div className="item1">
           <img src={frango} alt="" />
           <div>
-            <h2>Asa de De Frango Recheada</h2>
+            <h2>Asa de Frango Recheada</h2>
 
             <br />
             R$ 41,90
@@ -32,41 +40,38 @@ function Porcoes() {
         </div>
 
         <div className="item1">
-          <img src={frango} alt="" />
+          <img src={bolo} alt="" />
           <div>
             <h2>Bolinho Frito</h2>
             Sabores:  <br />
-            - Arroz, Arroz com Carne Seca, Bacalhau, Mandioca C/ Carne Seca Queijo.
-
+            <li>Arroz</li>
+             <li>Arroz com carne seca</li>
+              <li>Bacalhau</li>
+              <li> Mandioca c/ carne Seca Queijo</li>
+              <li> Queijo   </li>
             <br />
             R$ 29,90
           </div>
         </div>
 
         <div className="item1">
-          <img src={frango} alt="" />
-          <div>
-            <h2>Disco De Carne</h2>
-            Acompanha arroz, tropeiro, mandioca e vinagrete.
-            <br />
-            R$ 29,90
-          </div>
-        </div>
-
-        <div className="item1">
-          <img src={frango} alt="" />
+          <img src={peixe} alt="" />
           <div>
             <h2>Lambari Temperado</h2>
-            Acompanha arroz, tropeiro, mandioca e vinagrete.
+           
             <br />
             R$ 47,00
           </div>
         </div>
 
         <div className="item1">
-          <img src={frango} alt="" />
+          <img src={pastel} alt="" />
           <div>
-            <h2>Pastel de Carne ou Queijo</h2>
+            <h2>Pastelzinho</h2>
+
+            Sabores:
+            <li>Carne</li>
+            <li>Carne e Queijo</li>
 
             <br />
             R$ 35,90
@@ -74,26 +79,7 @@ function Porcoes() {
         </div>
 
         <div className="item1">
-          <img src={frango} alt="" />
-          <div>
-            <h2>Pastelzinho de Carne C/ Queijo</h2>
-            <br />
-            R$ 35,90
-          </div>
-        </div>
-
-        <div className="item1">
-          <img src={frango} alt="" />
-          <div>
-            <h2>Disco De Carne</h2>
-            <span className="note">Obs: Temos também com Catupiry</span>
-            <br />
-            R$ 29,90
-          </div>
-        </div>
-
-        <div className="item1">
-          <img src={frango} alt="" />
+          <img src={pastel} alt="" />
           <div>
             <h2>Pastelzinho Misto</h2>
             <br />
@@ -104,37 +90,49 @@ function Porcoes() {
         <div className="item1">
           <img src={frango} alt="" />
           <div>
+            <h2>Disco de Carne</h2>
+            <span className="note">Obs: Temos também com Catupiry</span>
+            <br />
+            R$ 29,90
+          </div>
+        </div>
+
+      
+        <div className="item1">
+          <img src={quibe} alt="" />
+          <div>
             <h2>Quibe</h2>
-            Com Queijo ou Catupiry
+            <li>Com Queijo</li>
+            <li>Catupiry </li>
             <br />
             R$ 29,90
           </div>
         </div>
 
         <div className="item1">
-          <img src={frango} alt="" />
+          <img src={arroz} alt="" />
           <div>
             <h2>Porções - Diversos</h2>
-            - Arroz pequena <br />
-            - Feijão Tropeiro
+            <li>Arroz pequena </li>
+            <li>Feijão Tropeiro </li>
             <br />
             R$ 11,00 cada
           </div>
         </div>
 
         <div className="item1">
-          <img src={frango} alt="" />
+          <img src={feijao} alt="" />
           <div>
             <h2>Porções - Diversos</h2>
-            - Arroz Grande <br />
-            - Feijão Tropeiro Grande
+            <li>Arroz Grande </li>
+            <li>Feijão Tropeiro Grande</li>
             <br />
             R$ 15,00 cada
           </div>
         </div>
 
         <div className="item1">
-          <img src={frango} alt="" />
+          <img src={Salada} alt="" />
           <div>
             <h2>Salada</h2>
             Alface, Tomate, Palmito, Azeitona, Queijo Fresco.
@@ -172,7 +170,7 @@ function Porcoes() {
           </div>
         </div>
         <div className="item1">
-          <img src={telapia} alt="" />
+          <img src={peixinho} alt="" />
           <div>
             <h2>File de Pintado Empanada</h2>
             <br />

@@ -32,7 +32,7 @@ function App() {
           <Caldos></Caldos>
           <Cervejas></Cervejas>
           <Porcoes></Porcoes>
-          <NaoAlcool></NaoAlcool>
+          
           
         </div>
 

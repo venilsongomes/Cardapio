@@ -7,18 +7,11 @@ import Slider from "react-slick";
     function Slideer() {
       const [activeSection, setActiveSection] = useState('');
 
-      var settings = {
-        dots: false,
-        infinite: false,
-        speed:500,
-        slidesToShow: 5,
-        slidesToScroll:1,
-        arrows:false
-      }
+      
     
       useEffect(() => {
          const handleScroll = () => {
-           const sections = ['jantinha', 'espetos', 'caldos', 'bebidas', 'porcoes', 'outros'];
+           const sections = ['jantinha', 'espetos', 'caldos', 'bebidas', 'porcoes'];
            const scrollPosition = window.scrollY + window.innerHeight / 2;
      
            sections.forEach((section) => {
@@ -45,7 +38,6 @@ import Slider from "react-slick";
             <li> <a href="#caldos" className={activeSection === 'caldos' ? 'active' : ''}>Caldos</a></li>
             <li> <a href="#bebidas" className={activeSection === 'bebidas' ? 'active' : ''}>Bebidas</a></li>
             <li> <a href="#porcoes" className={activeSection === 'porcoes' ? 'active' : ''}>Porções</a></li>
-            <li> <a href="#outros" className={activeSection === 'outros' ? 'active' : ''}>Outros</a></li>
            </ul>
            
           </nav>
