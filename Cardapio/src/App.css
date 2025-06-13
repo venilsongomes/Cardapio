@@ -43,10 +43,7 @@ body{
       color: rgb(240, 95, 95);
     }
     & a:hover{
-      color: #fff;
-      background: rgba(245, 162, 7, 0.938);
-      padding: 3px;
-      border-radius:10px;
+      
     }
   }
   & .logo{
