@@ -14,13 +14,11 @@ import Slider from "react-slick";
         slidesToShow: 5,
         slidesToScroll:1,
         arrows:false
-    
-
       }
     
       useEffect(() => {
          const handleScroll = () => {
-           const sections = ['comidas', 'espetos', 'bebidas', 'caldos', 'naoAlcool'];
+           const sections = ['jantinha', 'espetos', 'caldos', 'bebidas', 'porcoes', 'outros'];
            const scrollPosition = window.scrollY + window.innerHeight / 2;
      
            sections.forEach((section) => {
@@ -38,18 +36,19 @@ import Slider from "react-slick";
          return () => window.removeEventListener('scroll', handleScroll);
        }, []);
 
-
-
-
   return (
    
-  <Slider className="slider-links" {...settings}>
-    <a href="#comidas" className={activeSection === 'comidas' ? 'active' : ''}>Janta</a>
-   <a href="#espeto" className={activeSection === 'espeto' ? 'active' : ''}>Espeto</a>
-    <a href="#bebidas" className={activeSection === 'bebidas' ? 'active' : ''}>Bebida</a>
-    <a href="#caldos" className={activeSection === 'caldos' ? 'active' : ''}>Caldo</a>
-    <a href="#naoAlcool" className={activeSection === 'naoAlcool' ? 'active' : ''}>Outros</a>
-  </Slider>
+           <nav className="nav01">
+           <ul>
+            <li> <a href="#jantinha"  className={activeSection === 'jantinha' ? 'active' : ''}>Jantinha</a></li>
+            <li> <a href="#espetos"  className={activeSection === 'espetos' ? 'active' : ''}>Espetos</a></li>
+            <li> <a href="#caldos" className={activeSection === 'caldos' ? 'active' : ''}>Caldos</a></li>
+            <li> <a href="#bebidas" className={activeSection === 'bebidas' ? 'active' : ''}>Bebidas</a></li>
+            <li> <a href="#porcoes" className={activeSection === 'porcoes' ? 'active' : ''}>Porções</a></li>
+            <li> <a href="#outros" className={activeSection === 'outros' ? 'active' : ''}>Outros</a></li>
+           </ul>
+           
+          </nav>
 );
 }
 

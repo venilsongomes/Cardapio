@@ -12,7 +12,7 @@ import agua from '../assets/sem-alcool/agua.jpg';
 
 function NaoAlcool() {
     return (
-        <div id='naoAlcool'>
+        <div id='outros'>
             
             <section className='item' >
                 <h1> Não Alcoólico</h1>

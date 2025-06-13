@@ -5,10 +5,6 @@ import batata from '../assets/Porcoes/batata-frita.jpg'
 import telapia from '../assets/Porcoes/telapia.jpg'
 
 
-
-
-
-
 function Porcoes() {
   return (
     <div className="" id="porcoes">
@@ -57,8 +53,6 @@ function Porcoes() {
           </div>
         </div>
 
-
-
         <div className="item1">
           <img src={frango} alt="" />
           <div>
@@ -83,7 +77,6 @@ function Porcoes() {
           <img src={frango} alt="" />
           <div>
             <h2>Pastelzinho de Carne C/ Queijo</h2>
-
             <br />
             R$ 35,90
           </div>
@@ -99,8 +92,6 @@ function Porcoes() {
           </div>
         </div>
 
-
-
         <div className="item1">
           <img src={frango} alt="" />
           <div>
@@ -109,7 +100,6 @@ function Porcoes() {
             R$ 37,90
           </div>
         </div>
-
 
         <div className="item1">
           <img src={frango} alt="" />
@@ -120,7 +110,6 @@ function Porcoes() {
             R$ 29,90
           </div>
         </div>
-
 
         <div className="item1">
           <img src={frango} alt="" />
@@ -158,7 +147,8 @@ function Porcoes() {
           <img src={batata} alt="" />
           <div>
             <h2>Batata Frita tradicional</h2>
-            Batata frita tradicional, servida sem queijo ou outros acompanhamentos.
+            Batata frita tradicional, servida sem queijo ou outros 
+            acompanhamentos.
             <br />
             R$ 32,00
           </div>

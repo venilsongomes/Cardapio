@@ -3,7 +3,10 @@ import espeto2 from '../assets/espetos/espetinho2.webp'
 import espeto3 from '../assets/espetos/coracao.webp'
 import espeto4 from '../assets/espetos/Picanha3.jpg'
 import espeto5 from '../assets/espetos/linguica.webp'
-import espeto6 from '../assets/Espetos/frango.jpg';
+import espeto6 from '../assets/Espetos/bacon.svg';
+import espeto7 from '../assets/Espetos/kafta-carne.svg';
+import espeto8 from '../assets/Espetos/kafta-frango.svg';
+import espeto9 from '../assets/Espetos/espeto.svg';
 
 
 function Espetos(){
@@ -71,7 +74,7 @@ function Espetos(){
               </div>
 
               <div className="item1">
-                <img src={espeto3} alt="" />
+                <img src={espeto9} alt="" />
                 <div>
                   <h2>Cupin</h2>
                   R$ 12,00
@@ -87,7 +90,7 @@ function Espetos(){
               </div>
 
               <div className="item1">
-                <img src={espeto3} alt="" />
+                <img src={espeto8} alt="" />
                 <div>
                   <h2>Kafta de Frango</h2>
                   R$ 12,00
@@ -95,17 +98,12 @@ function Espetos(){
               </div>
 
               <div className="item1">
-                <img src={espeto3} alt="" />
+                <img src={espeto7} alt="" />
                 <div>
                   <h2>Kafta Bovina</h2>
                   R$ 12,00
                 </div>
               </div>
-
-
-
-
-
 
             </section>
           </div>

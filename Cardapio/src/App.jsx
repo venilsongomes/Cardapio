@@ -21,27 +21,18 @@ function App() {
         <div className="menu">
           <div className="logo"></div>
           
-          <nav className="nav01">
-           <ul>
-            <li> <a href="#jantinha">Jantinha</a></li>
-            <li> <a href="#espetos">Espetos</a></li>
-            <li> <a href="#bebidas">Bebidas</a></li>
-            <li> <a href="#caldos">Caldos</a></li>
-            <li> <a href="#outros">Outros</a></li>
-            <li> <a href="#outros">Drinks</a></li>
-           </ul>
-           
-          </nav>
+         <Sliiderr></Sliiderr>
         </div>
         
        
         <div className="cardapio">
+
           <Jantinha></Jantinha>
           <Espetos></Espetos>
-          <Cervejas></Cervejas>
-          <Drinks></Drinks>
           <Caldos></Caldos>
+          <Cervejas></Cervejas>
           <Porcoes></Porcoes>
+          <NaoAlcool></NaoAlcool>
           
         </div>
 
@@ -49,7 +40,6 @@ function App() {
           <div>&copy; Desenvolvido por Venilson Rocha</div>
         </footer>
 
-        
       </section>
      
     </>

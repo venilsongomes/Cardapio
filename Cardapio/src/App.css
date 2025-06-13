@@ -16,6 +16,7 @@ body{
     align-items: center;
     justify-content: center;
     background:rgb(244, 244, 244);
+    box-shadow: rgba(0, 0, 0, 0.1) 12px 4px 10px;
 }
 
 .menu{
@@ -126,11 +127,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 13px;
+scroll-margin-top: 300px;
 
 & h1{
   color: #f7cd52;
   font-size: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  scroll-margin-top: 300px;
 }
 
 }
@@ -151,7 +154,7 @@ padding: 13px;
     }
     
     & h2{
-     color: #011F26;
+     color: rgb(14, 13, 13);
      margin-bottom: 10px;
      font-size: 20px;
   
@@ -164,7 +167,7 @@ padding: 13px;
     display: inline-block;
   }
 
-  .slider-links a {
+  nav01 a {
    
   
     text-decoration: none;
@@ -176,7 +179,7 @@ padding: 13px;
 
   }
   
-  .slider-links a.active {
+  .nav01 a.active {
     color: orange;
     font-weight: bold;
     border-bottom: 2px solid orange;
@@ -192,6 +195,10 @@ padding: 13px;
     padding: 20px;
 
   }
+
+  #jantinha, #espetos, #bebidas, #caldos, #outros, #drinks{
+  scroll-margin-top: 300px;
+}
   
   @media(max-width: 600px) {
   
