@@ -29,7 +29,7 @@ function NaoAlcool() {
                     <img src={redbull} alt="" />
                     <div>
                         <h2>Energetico RedBull</h2>
-                        R$ 5,00
+                        R$ 15,00
                     </div>
                 </div>
                 <div className="item1">
@@ -42,7 +42,7 @@ function NaoAlcool() {
                         <li>Limão</li>
                         <li>Maracujá</li>
                         <br />
-                        R$ 5,00
+                        R$ 12,00
                     </div>
                 </div>
                   
