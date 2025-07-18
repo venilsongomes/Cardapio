@@ -31,7 +31,7 @@ function Cervejas() {
           <img src={cervaB2} alt="" />
           <div>
             <h2>Bhahma 600</h2>
-            R$ 11,00
+            R$ 12,00
           </div>
         </div>
 
@@ -39,7 +39,7 @@ function Cervejas() {
           <img src={spaten} alt="" />
           <div>
             <h2>Spaten - 600</h2>
-            R$ 11,00
+            R$ 14,00
           </div>
         </div>
 
@@ -47,7 +47,7 @@ function Cervejas() {
           <img src={bohemia} alt="" />
           <div>
             <h2>Bohemia</h2>
-            R$ 11,00
+            R$ 12,00
           </div>
         </div>
 
@@ -81,6 +81,14 @@ function Cervejas() {
             R$ 10,00
           </div>
         </div>
+
+          <div className="item1">
+          <img src={cerva} alt="" />
+          <div>
+            <h2>Heineken - 600</h2>
+            R$ 15,00
+          </div>
+        </div>
         <div className="item1">
           <img src={lata} alt="" />
           <div>
@@ -92,7 +100,7 @@ function Cervejas() {
           <img src={cerva2} alt="" />
           <div>
             <h2>Antartica 600 ml</h2>
-            R$ 11,00
+            R$ 12,00
           </div>
         </div>
 
