@@ -27,10 +27,26 @@ function Cervejas() {
 
       <section className="item">
         <h1>Cervejas</h1>
+
+        <div className="item1">
+          <img src={cerva} alt="" />
+          <div>
+            <h2>Heineken - 600</h2>
+            R$ 15,00
+          </div>
+        </div>
+
         <div className="item1">
           <img src={cervaB2} alt="" />
           <div>
             <h2>Bhahma 600</h2>
+            R$ 11,00
+          </div>
+        </div>
+         <div className="item1">
+          <img src={cervaB2} alt="" />
+          <div>
+            <h2>Bhahma Duplo Malte 600</h2>
             R$ 12,00
           </div>
         </div>
@@ -39,7 +55,7 @@ function Cervejas() {
           <img src={spaten} alt="" />
           <div>
             <h2>Spaten - 600</h2>
-            R$ 14,00
+            R$ 13,00
           </div>
         </div>
 
@@ -47,7 +63,7 @@ function Cervejas() {
           <img src={bohemia} alt="" />
           <div>
             <h2>Bohemia</h2>
-            R$ 12,00
+            R$ 11,00
           </div>
         </div>
 
@@ -63,44 +79,124 @@ function Cervejas() {
           <img src={stela} alt="" />
           <div>
             <h2>Stella Artois - 600</h2>
-            R$ 15,00
+            R$ 13,00
+          </div>
+        </div>
+
+         <div className="item1">
+          <img src={cervaB2} alt="" />
+          <div>
+            <h2>Skol 600</h2>
+            R$ 11,00
+          </div>
+        </div>
+
+        <div className="item1">
+          <img src={cerva2} alt="" />
+          <div>
+            <h2>Antartica 600 ml</h2>
+            R$ 11,00
+          </div>
+        </div>
+<h1> Cerveja Lata</h1>
+        <div className="item1">
+          <img src={cervaB} alt="" />
+          <div>
+            <h2>Bhahma chopp Lata - Lata</h2>
+            R$ 05,00
+          </div>
+        </div>
+
+       <div className="item1">
+          <img src={cervaB} alt="" />
+          <div>
+            <h2>Bhahma Duplo Malte - Lata</h2>
+            R$ 05,50
           </div>
         </div>
 
         <div className="item1">
           <img src={cervaB} alt="" />
           <div>
-            <h2>Bhahma chopp Lata</h2>
+            <h2>Antartica - Lata</h2>
             R$ 05,00
           </div>
         </div>
+
+         <div className="item1">
+          <img src={lata} alt="" />
+          <div>
+            <h2>Amistel Lata</h2>
+            R$ 05,50
+          </div>
+        </div>
+
+         <div className="item1">
+          <img src={lata} alt="" />
+          <div>
+            <h2>Spaten Lata</h2>
+            R$ 05,50
+          </div>
+        </div>
+
+
         <div className="item1">
           <img src={cerva} alt="" />
           <div>
-            <h2>Heineken Long Neck</h2>
+            <h2>Heineken Lata</h2>
+            R$ 06,50
+          </div>
+        </div>
+
+          
+        <div className="item1">
+          <img src={lata} alt="" />
+          <div>
+            <h2>Skol Lata</h2>
+            R$ 05,00
+          </div>
+        </div>
+
+         <div className="item1">
+          <img src={lata} alt="" />
+          <div>
+            <h2>Bohemia Lata</h2>
             R$ 10,00
           </div>
         </div>
 
-          <div className="item1">
-          <img src={cerva} alt="" />
-          <div>
-            <h2>Heineken - 600</h2>
-            R$ 15,00
-          </div>
-        </div>
-        <div className="item1">
+
+        <h1>Long Neck</h1>
+
+         <div className="item1">
           <img src={lata} alt="" />
           <div>
-            <h2>Heineken Lata</h2>
+            <h2>Heineken </h2>
+            R$ 09,00
+          </div>
+        </div>
+
+         <div className="item1">
+          <img src={lata} alt="" />
+          <div>
+            <h2>Heineken Zero</h2>
             R$ 10,00
           </div>
         </div>
-        <div className="item1">
-          <img src={cerva2} alt="" />
+
+         <div className="item1">
+          <img src={lata} alt="" />
           <div>
-            <h2>Antartica 600 ml</h2>
-            R$ 12,00
+            <h2>BudWeser</h2>
+            R$ 08,00
+          </div>
+        </div>
+
+         <div className="item1">
+          <img src={lata} alt="" />
+          <div>
+            <h2>Sol</h2>
+            R$ 08,00
           </div>
         </div>
 
@@ -113,7 +209,7 @@ function Cervejas() {
             <li>Red Label</li>
             <li>Old Par</li>
             <br />
-            R$ 10,00
+            R$ 12,00
           </div>
         </div>
 
@@ -128,22 +224,14 @@ function Cervejas() {
             <li> Gengibre</li>
             <li> São João da barra</li>
             <li> Para Tudo</li>
+            <li> Presidente</li>
           <br />
            
-            R$ 04,00
-          </div>
-        </div>
-
-        <div className="item1">
-          <img src={conhaque} alt="" />
-          <div>
-            <h2>Conhaque - Dose</h2>
-            Presidente
-            <br />
             R$ 05,00
           </div>
         </div>
 
+       
         <div className="item1">
           <img src={campari} alt="" />
           <div>
@@ -158,9 +246,41 @@ function Cervejas() {
                             <img src={coca1} alt="" />
                             <div>
                                 <h2>Coca Cola</h2>
-                                R$ 5,00
+                                R$ 06,50
                             </div>
                         </div>
+
+
+                        <div className="item1">
+                            <img src={coca1} alt="" />
+                            <div>
+                                <h2>Refri Lata</h2>
+
+                                <li>Fanta Laranja</li>
+                                <li>Mineiro</li>
+                                <li>Sprite</li>
+                                <li>Guarana</li>
+                                R$ 06,00
+                            </div>
+                        </div>
+
+                        <div className="item1">
+                            <img src={coca1} alt="" />
+                            <div>
+                                <h1>Refri</h1>
+
+                                <li>Fanta Laranja</li>
+                                <li>Mineiro</li>
+                                <li>Sprite</li>
+                                <li>Guarana</li>
+                                R$ 06,00
+                            </div>
+                        </div>
+
+
+
+
+
                         <div className="item1">
                             <img src={redbull} alt="" />
                             <div>
@@ -178,9 +298,26 @@ function Cervejas() {
                                 <li>Limão</li>
                                 <li>Maracujá</li>
                                 <br />
-                                R$ 5,00
+                                R$ 10,00
                             </div>
                         </div>
+
+
+
+<div className="item1">
+                            <img src={coca1} alt="" />
+                            <div>
+                                <h2>Cremes</h2>
+
+                                <li>Morango</li>
+                                <li>Maracujá</li>
+                                <li>Cupuaçu</li>
+                                <li>Abacaxi</li>
+                                R$ 15,00
+                            </div>
+                        </div>
+
+
                           
                         <div className="item1">
                             <img src={agua} alt="" />

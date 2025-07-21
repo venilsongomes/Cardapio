@@ -105,6 +105,14 @@ function Espetos(){
                 </div>
               </div>
 
+              <div className="item1">
+                <img src={espeto7} alt="" />
+                <div>
+                  <h2>Provolone</h2>
+                  R$ 10,00
+                </div>
+              </div>
+
             </section>
           </div>
     );

@@ -72,20 +72,14 @@ function Porcoes() {
             Sabores:
             <li>Carne</li>
             <li>Carne e Queijo</li>
+            <li>Misto</li>
 
             <br />
             R$ 35,90
           </div>
         </div>
 
-        <div className="item1">
-          <img src={pastel} alt="" />
-          <div>
-            <h2>Pastelzinho Misto</h2>
-            <br />
-            R$ 37,90
-          </div>
-        </div>
+        
 
         <div className="item1">
           <img src={frango} alt="" />
