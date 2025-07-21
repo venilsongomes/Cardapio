@@ -1,16 +1,16 @@
-import cerva from '../assets/cervejas/cerva.png'
-import cervaB from '../assets/cervejas/bhahma.webp'
-import cervaB2 from '../assets/cervejas/cerveja-Brahma-600.png'
-import cerva2 from '../assets/Cervejas/Antartica.png'
-import lata from '../assets/Cervejas/lata.jpg'
-import stela from '../assets/Cervejas/stela.webp'
-import bohemia from '../assets/Cervejas/bohemia-600.jpg'
-import original from '../assets/Cervejas/original.jpg'
-import spaten from '../assets/Cervejas/spaten.webp'
-import cachaca from '../assets/Drinks/cachaca.jpg'
-import campari from '../assets/Drinks/campari.avif'
-import conhaque from '../assets/Drinks/conhaque.webp'
-import red from '../assets/Drinks/red.png'
+import cerva from '../assets/cervejas/cerva.png';
+import cervaB from '../assets/cervejas/bhahma.webp';
+import cervaB2 from '../assets/cervejas/cerveja-Brahma-600.png';
+import cerva2 from '../assets/Cervejas/Antartica.png';
+import lata from '../assets/Cervejas/lata.jpg';
+import stela from '../assets/Cervejas/stela.webp';
+import bohemia from '../assets/Cervejas/bohemia-600.jpg';
+import original from '../assets/Cervejas/original.jpg';
+import spaten from '../assets/Cervejas/spaten.webp';
+import cachaca from '../assets/Drinks/cachaca.jpg';
+import campari from '../assets/Drinks/campari.avif';
+import duplo from '../assets/Cervejas/duplo.webp';
+import red from '../assets/Drinks/red.png';
 import coca from '../assets/sem-alcool/coca.png';
 import redbull from '../assets/sem-alcool/redbull.png';
 import sucoLaranja from '../assets/sem-alcool/sucoLaranja.jpg';
@@ -19,19 +19,25 @@ import sucoUva from '../assets/sem-alcool/sucoUva.jpeg';
 import agua from '../assets/sem-alcool/agua.jpg';
 import coca1 from '../assets/sem-alcool/coca-lt.svg';
 import suco from '../assets/sem-alcool/suco.svg';
-
+import skoll from '../assets/Cervejas/skol.webp';
+import skollg from '../assets/Cervejas/skol2.webp';
+import spatens from '../assets/Cervejas/spatens.webp';
+import antartica from '../assets/Cervejas/antartica.png';
+import amistel from '../assets/Cervejas/Amistel.webp';
+import bohemial from '../assets/Cervejas/bohemia.webp';
+import bud from '../assets/Cervejas/bud.webp';
+import sol from '../assets/Cervejas/sol.webp';
 
 function Cervejas() {
   return (
     <div id="bebidas" className="linha">
-
       <section className="item">
         <h1>Cervejas</h1>
 
         <div className="item1">
           <img src={cerva} alt="" />
           <div>
-            <h2>Heineken - 600</h2>
+            <h2>Heineken 600</h2>
             R$ 15,00
           </div>
         </div>
@@ -43,7 +49,8 @@ function Cervejas() {
             R$ 11,00
           </div>
         </div>
-         <div className="item1">
+
+        <div className="item1">
           <img src={cervaB2} alt="" />
           <div>
             <h2>Bhahma Duplo Malte 600</h2>
@@ -83,8 +90,8 @@ function Cervejas() {
           </div>
         </div>
 
-         <div className="item1">
-          <img src={cervaB2} alt="" />
+        <div className="item1">
+          <img src={skollg} alt="" />
           <div>
             <h2>Skol 600</h2>
             R$ 11,00
@@ -98,109 +105,108 @@ function Cervejas() {
             R$ 11,00
           </div>
         </div>
-<h1> Cerveja Lata</h1>
+
+        <h1>Cerveja Lata</h1>
+
         <div className="item1">
           <img src={cervaB} alt="" />
           <div>
-            <h2>Bhahma chopp Lata - Lata</h2>
+            <h2>Bhahma chopp </h2>
             R$ 05,00
           </div>
         </div>
 
-       <div className="item1">
-          <img src={cervaB} alt="" />
+        <div className="item1">
+          <img src={duplo} alt="" />
           <div>
-            <h2>Bhahma Duplo Malte - Lata</h2>
+            <h2>Bhahma Duplo Malte </h2>
             R$ 05,50
           </div>
         </div>
 
         <div className="item1">
-          <img src={cervaB} alt="" />
+          <img src={antartica}  alt="" />
           <div>
-            <h2>Antartica - Lata</h2>
+            <h2>Antartica</h2>
             R$ 05,00
           </div>
         </div>
 
-         <div className="item1">
-          <img src={lata} alt="" />
+        <div className="item1">
+          <img src={amistel} alt="" />
           <div>
-            <h2>Amistel Lata</h2>
+            <h2>Amistel </h2>
             R$ 05,50
           </div>
         </div>
-
-         <div className="item1">
-          <img src={lata} alt="" />
-          <div>
-            <h2>Spaten Lata</h2>
-            R$ 05,50
-          </div>
-        </div>
-
 
         <div className="item1">
-          <img src={cerva} alt="" />
+          <img src={spatens}  alt="" />
           <div>
-            <h2>Heineken Lata</h2>
+            <h2>Spaten </h2>
+            R$ 05,50
+          </div>
+        </div>
+
+        <div className="item1">
+          <img src={lata} alt="" />
+          <div>
+            <h2>Heineken </h2>
             R$ 06,50
           </div>
         </div>
 
-          
         <div className="item1">
-          <img src={lata} alt="" />
+          <img src={skoll} alt="" />
           <div>
-            <h2>Skol Lata</h2>
+            <h2>Skol </h2>
             R$ 05,00
           </div>
         </div>
 
-         <div className="item1">
-          <img src={lata} alt="" />
+        <div className="item1">
+          <img src={bohemial} alt="" />
           <div>
-            <h2>Bohemia Lata</h2>
-            R$ 10,00
+            <h2>Bohemia </h2>
+            R$ 05,00
           </div>
         </div>
 
-
         <h1>Long Neck</h1>
 
-         <div className="item1">
-          <img src={lata} alt="" />
+        <div className="item1">
+          <img src={cerva} alt="" />
           <div>
             <h2>Heineken </h2>
             R$ 09,00
           </div>
         </div>
 
-         <div className="item1">
-          <img src={lata} alt="" />
+        <div className="item1">
+          <img src={cerva} alt="" />
           <div>
             <h2>Heineken Zero</h2>
             R$ 10,00
           </div>
         </div>
 
-         <div className="item1">
-          <img src={lata} alt="" />
+        <div className="item1">
+          <img src={bud} alt="" />
           <div>
             <h2>BudWeser</h2>
             R$ 08,00
           </div>
         </div>
 
-         <div className="item1">
-          <img src={lata} alt="" />
+        <div className="item1">
+          <img src={sol} alt="" />
           <div>
             <h2>Sol</h2>
             R$ 08,00
           </div>
         </div>
 
-        <h1> Doses</h1>
+        <h1>Doses</h1>
 
         <div className="item1">
           <img src={red} alt="" />
@@ -217,119 +223,113 @@ function Cervejas() {
           <img src={cachaca} alt="" />
           <div>
             <h2>Cachaças - Dose</h2>
-
             <li>Ypioca</li>
-            <li> Da Raça</li>
-            <li> 51</li>
-            <li> Gengibre</li>
-            <li> São João da barra</li>
-            <li> Para Tudo</li>
-            <li> Presidente</li>
-          <br />
-           
+            <li>Da Raça</li>
+            <li>51</li>
+            <li>Gengibre</li>
+            <li>São João da barra</li>
+            <li>Para Tudo</li>
+            <li>Presidente</li>
+            <br />
             R$ 05,00
           </div>
         </div>
 
-       
         <div className="item1">
           <img src={campari} alt="" />
           <div>
-            <h2>Campari e Smirnoff -  Dose</h2>
+            <h2>Campari e Smirnoff - Dose</h2>
             <br />
             R$ 12,00
           </div>
         </div>
 
-         <h1> Não Alcoólico</h1>
-                        <div className="item1">
-                            <img src={coca1} alt="" />
-                            <div>
-                                <h2>Coca Cola</h2>
-                                R$ 06,50
-                            </div>
-                        </div>
+        <h1>Não Alcoólico</h1>
 
+        <div className="item1">
+          <img src={coca1} alt="" />
+          <div>
+            <h2>Coca Cola</h2>
+            R$ 06,50
+          </div>
+        </div>
 
-                        <div className="item1">
-                            <img src={coca1} alt="" />
-                            <div>
-                                <h2>Refri Lata</h2>
+        <div className="item1">
+          <img src={coca1} alt="" />
+          <div>
+            <h2>Refri Lata</h2>
+            <li>Fanta Laranja</li>
+            <li>Mineiro</li>
+            <li>Sprite</li>
+            <li>Guarana</li>
+            R$ 06,00
+          </div>
+        </div>
 
-                                <li>Fanta Laranja</li>
-                                <li>Mineiro</li>
-                                <li>Sprite</li>
-                                <li>Guarana</li>
-                                R$ 06,00
-                            </div>
-                        </div>
+        <div className="item1">
+          <img src={coca1} alt="" />
+          <div>
+            <h2>Refri 600</h2>
+            <li>Fanta Laranja</li>
+            <li>Mineiro</li>
+            <li>Sprite</li>
+            <li>Guarana</li>
+            R$ 06,00
+          </div>
+        </div>
 
-                        <div className="item1">
-                            <img src={coca1} alt="" />
-                            <div>
-                                <h1>Refri</h1>
+        <div className="item1">
+          <img src={redbull} alt="" />
+          <div>
+            <h2>Energetico RedBull</h2>
+            R$ 14,00
+          </div>
+        </div>
 
-                                <li>Fanta Laranja</li>
-                                <li>Mineiro</li>
-                                <li>Sprite</li>
-                                <li>Guarana</li>
-                                R$ 06,00
-                            </div>
-                        </div>
+        <div className="item1">
+          <img src={redbull} alt="" />
+          <div>
+            <h2>Extra Power</h2>
+            R$ 13,00
+          </div>
+        </div>
 
+        <div className="item1">
+          <img src={suco} alt="" />
+          <div>
+            <h2>Suco Natural</h2>
+            <li>Laranja</li>
+            <li>Uva</li>
+            <li>Caju</li>
+            <li>Limão</li>
+            <li>Maracujá</li>
+            <br />
+            R$ 10,00
+          </div>
+        </div>
 
+        <div className="item1">
+          <img src={coca1} alt="" />
+          <div>
+            <h2>Cremes</h2>
+            <li>Morango</li>
+            <li>Maracujá</li>
+            <li>Cupuaçu</li>
+            <li>Abacaxi</li>
+            R$ 15,00
+          </div>
+        </div>
 
-
-
-                        <div className="item1">
-                            <img src={redbull} alt="" />
-                            <div>
-                                <h2>Energetico RedBull</h2>
-                                R$ 5,00
-                            </div>
-                        </div>
-                        <div className="item1">
-                            <img src={suco} alt="" />
-                            <div>
-                                <h2>Suco Natural</h2>
-                                <li>Laranja</li>
-                                <li>Uva</li>
-                                <li>Caju</li>
-                                <li>Limão</li>
-                                <li>Maracujá</li>
-                                <br />
-                                R$ 10,00
-                            </div>
-                        </div>
-
-
-
-<div className="item1">
-                            <img src={coca1} alt="" />
-                            <div>
-                                <h2>Cremes</h2>
-
-                                <li>Morango</li>
-                                <li>Maracujá</li>
-                                <li>Cupuaçu</li>
-                                <li>Abacaxi</li>
-                                R$ 15,00
-                            </div>
-                        </div>
-
-
-                          
-                        <div className="item1">
-                            <img src={agua} alt="" />
-                            <div>
-                                <h2>Água Mineral</h2>
-                                R$ 5,00
-                            </div>
-                        </div>
-
+        <div className="item1">
+          <img src={agua} alt="" />
+          <div>
+            <h2>Água Mineral</h2>
+            R$ 5,00
+          </div>
+        </div>
       </section>
-
     </div>
   );
 }
+
 export default Cervejas;
