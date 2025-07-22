@@ -25,9 +25,12 @@ import spatens from '../assets/Cervejas/spatens.webp';
 import antartica from '../assets/Cervejas/antartica.png';
 import amistel from '../assets/Cervejas/Amistel.webp';
 import bohemial from '../assets/Cervejas/bohemia.webp';
-import bud from '../assets/Cervejas/bud.webp';
+import bud from '../assets/Cervejas/budi.jpg';
 import sol from '../assets/Cervejas/sol.webp';
-
+import antarticaL from '../assets/Cervejas/antartica.jpg';
+import extra from '../assets/sem-alcool/extra.jpg';
+import coca2 from '../assets/sem-alcool/coca.webp';
+import creme from '../assets/sem-alcool/creme.jpg';
 function Cervejas() {
   return (
     <div id="bebidas" className="linha">
@@ -38,7 +41,7 @@ function Cervejas() {
           <img src={cerva} alt="" />
           <div>
             <h2>Heineken 600</h2>
-            R$ 15,00
+            <h3>R$ 15,00</h3>
           </div>
         </div>
 
@@ -46,7 +49,7 @@ function Cervejas() {
           <img src={cervaB2} alt="" />
           <div>
             <h2>Bhahma 600</h2>
-            R$ 11,00
+            <h3>R$ 11,00</h3>
           </div>
         </div>
 
@@ -54,7 +57,7 @@ function Cervejas() {
           <img src={cervaB2} alt="" />
           <div>
             <h2>Bhahma Duplo Malte 600</h2>
-            R$ 12,00
+            <h3>R$ 12,00</h3>
           </div>
         </div>
 
@@ -62,7 +65,7 @@ function Cervejas() {
           <img src={spaten} alt="" />
           <div>
             <h2>Spaten - 600</h2>
-            R$ 13,00
+            <h3>R$ 13,00</h3>
           </div>
         </div>
 
@@ -70,7 +73,7 @@ function Cervejas() {
           <img src={bohemia} alt="" />
           <div>
             <h2>Bohemia</h2>
-            R$ 11,00
+            <h3>R$ 11,00</h3>
           </div>
         </div>
 
@@ -78,7 +81,7 @@ function Cervejas() {
           <img src={original} alt="" />
           <div>
             <h2>Original - 600</h2>
-            R$ 14,00
+            <h3>R$ 14,00</h3>
           </div>
         </div>
 
@@ -86,7 +89,7 @@ function Cervejas() {
           <img src={stela} alt="" />
           <div>
             <h2>Stella Artois - 600</h2>
-            R$ 13,00
+            <h3>R$ 13,00</h3>
           </div>
         </div>
 
@@ -94,7 +97,7 @@ function Cervejas() {
           <img src={skollg} alt="" />
           <div>
             <h2>Skol 600</h2>
-            R$ 11,00
+            <h3>R$ 11,00</h3>
           </div>
         </div>
 
@@ -102,7 +105,7 @@ function Cervejas() {
           <img src={cerva2} alt="" />
           <div>
             <h2>Antartica 600 ml</h2>
-            R$ 11,00
+            <h3>R$ 11,00</h3>
           </div>
         </div>
 
@@ -112,7 +115,7 @@ function Cervejas() {
           <img src={cervaB} alt="" />
           <div>
             <h2>Bhahma chopp </h2>
-            R$ 05,00
+            <h3>R$ 05,00</h3>
           </div>
         </div>
 
@@ -120,15 +123,15 @@ function Cervejas() {
           <img src={duplo} alt="" />
           <div>
             <h2>Bhahma Duplo Malte </h2>
-            R$ 05,50
+            <h3>R$ 05,50</h3>
           </div>
         </div>
 
         <div className="item1">
-          <img src={antartica}  alt="" />
+          <img src={antarticaL}  alt="" />
           <div>
             <h2>Antartica</h2>
-            R$ 05,00
+            <h3>R$ 05,00</h3>
           </div>
         </div>
 
@@ -136,7 +139,7 @@ function Cervejas() {
           <img src={amistel} alt="" />
           <div>
             <h2>Amistel </h2>
-            R$ 05,50
+            <h3>R$ 05,50</h3>
           </div>
         </div>
 
@@ -144,7 +147,7 @@ function Cervejas() {
           <img src={spatens}  alt="" />
           <div>
             <h2>Spaten </h2>
-            R$ 05,50
+            <h3>R$ 05,50</h3>
           </div>
         </div>
 
@@ -152,7 +155,7 @@ function Cervejas() {
           <img src={lata} alt="" />
           <div>
             <h2>Heineken </h2>
-            R$ 06,50
+            <h3>R$ 06,50</h3>
           </div>
         </div>
 
@@ -160,7 +163,7 @@ function Cervejas() {
           <img src={skoll} alt="" />
           <div>
             <h2>Skol </h2>
-            R$ 05,00
+            <h3>R$ 05,00</h3>
           </div>
         </div>
 
@@ -168,17 +171,17 @@ function Cervejas() {
           <img src={bohemial} alt="" />
           <div>
             <h2>Bohemia </h2>
-            R$ 05,00
+            <h3>R$ 05,00</h3>
           </div>
         </div>
 
         <h1>Long Neck</h1>
-
+      
         <div className="item1">
           <img src={cerva} alt="" />
           <div>
             <h2>Heineken </h2>
-            R$ 09,00
+            <h3>R$ 09,00</h3>
           </div>
         </div>
 
@@ -186,7 +189,7 @@ function Cervejas() {
           <img src={cerva} alt="" />
           <div>
             <h2>Heineken Zero</h2>
-            R$ 10,00
+            <h3>R$ 8,50</h3>
           </div>
         </div>
 
@@ -194,7 +197,7 @@ function Cervejas() {
           <img src={bud} alt="" />
           <div>
             <h2>BudWeser</h2>
-            R$ 08,00
+            <h3>R$ 08,00</h3>
           </div>
         </div>
 
@@ -202,7 +205,7 @@ function Cervejas() {
           <img src={sol} alt="" />
           <div>
             <h2>Sol</h2>
-            R$ 08,00
+            <h3>R$ 08,00</h3>
           </div>
         </div>
 
@@ -215,7 +218,7 @@ function Cervejas() {
             <li>Red Label</li>
             <li>Old Par</li>
             <br />
-            R$ 12,00
+            <h3>R$ 12,00</h3>
           </div>
         </div>
 
@@ -231,7 +234,7 @@ function Cervejas() {
             <li>Para Tudo</li>
             <li>Presidente</li>
             <br />
-            R$ 05,00
+            <h3>R$ 05,00</h3>
           </div>
         </div>
 
@@ -240,17 +243,28 @@ function Cervejas() {
           <div>
             <h2>Campari e Smirnoff - Dose</h2>
             <br />
-            R$ 12,00
+            <h3>R$ 12,00</h3>
           </div>
         </div>
 
         <h1>Não Alcoólico</h1>
 
+       <div className="item1">
+          <img src={coca2} alt="" />
+          <div>
+            <h2>Coca Cola - 2 litros</h2>
+            
+             <br />
+            <h3>R$ 14,00</h3>
+          </div>
+        </div>
+
         <div className="item1">
-          <img src={coca1} alt="" />
+          <img src={coca2} alt="" />
           <div>
             <h2>Coca Cola</h2>
-            R$ 06,50
+             <br />
+            <h3>R$ 06,50</h3>
           </div>
         </div>
 
@@ -262,7 +276,8 @@ function Cervejas() {
             <li>Mineiro</li>
             <li>Sprite</li>
             <li>Guarana</li>
-            R$ 06,00
+             <br />
+            <h3>R$ 06,00</h3>
           </div>
         </div>
 
@@ -274,7 +289,8 @@ function Cervejas() {
             <li>Mineiro</li>
             <li>Sprite</li>
             <li>Guarana</li>
-            R$ 06,00
+             <br />
+            <h3>R$ 06,00</h3>
           </div>
         </div>
 
@@ -282,15 +298,17 @@ function Cervejas() {
           <img src={redbull} alt="" />
           <div>
             <h2>Energetico RedBull</h2>
-            R$ 14,00
+             <br />
+            <h3>R$ 14,00</h3>
           </div>
         </div>
 
         <div className="item1">
-          <img src={redbull} alt="" />
+          <img src={extra} alt="" />
           <div>
             <h2>Extra Power</h2>
-            R$ 13,00
+             <br />
+            <h3>R$ 13,00</h3>
           </div>
         </div>
 
@@ -304,19 +322,20 @@ function Cervejas() {
             <li>Limão</li>
             <li>Maracujá</li>
             <br />
-            R$ 10,00
+            <h3>R$ 10,00</h3>
           </div>
         </div>
 
         <div className="item1">
-          <img src={coca1} alt="" />
+          <img src={creme} alt="" />
           <div>
             <h2>Cremes</h2>
             <li>Morango</li>
             <li>Maracujá</li>
             <li>Cupuaçu</li>
             <li>Abacaxi</li>
-            R$ 15,00
+             <br />
+            <h3>R$ 15,00</h3>
           </div>
         </div>
 
@@ -324,7 +343,8 @@ function Cervejas() {
           <img src={agua} alt="" />
           <div>
             <h2>Água Mineral</h2>
-            R$ 5,00
+             <br />
+            <h3>R$ 5,00</h3>
           </div>
         </div>
       </section>

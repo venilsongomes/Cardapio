@@ -23,9 +23,8 @@ function Porcoes() {
           <img src={frango} alt="Frango a passarinha" />
           <div>
             <h2>Frango a passarinha</h2>
-            
             <br />
-            R$ 32,00
+            <h3>R$ 32,00 </h3>
           </div>
         </div>
 
@@ -33,9 +32,8 @@ function Porcoes() {
           <img src={frango} alt="" />
           <div>
             <h2>Asa de Frango Recheada</h2>
-
             <br />
-            R$ 41,90
+            <h3>R$ 41,90</h3>
           </div>
         </div>
 
@@ -43,14 +41,14 @@ function Porcoes() {
           <img src={bolo} alt="" />
           <div>
             <h2>Bolinho Frito</h2>
-            Sabores:  <br />
+            <p> Sabores:</p>
             <li>Arroz</li>
-             <li>Arroz com carne seca</li>
-              <li>Bacalhau</li>
-              <li> Mandioca c/ carne Seca Queijo</li>
-              <li> Queijo   </li>
+            <li>Arroz com carne seca</li>
+            <li>Bacalhau</li>
+            <li>Mandioca c/ carne Seca Queijo</li>
+            <li>Queijo</li>
             <br />
-            R$ 29,90
+            <h3>R$ 29,90 </h3>
           </div>
         </div>
 
@@ -58,9 +56,8 @@ function Porcoes() {
           <img src={peixe} alt="" />
           <div>
             <h2>Lambari Temperado</h2>
-           
             <br />
-            R$ 47,00
+            <h3>R$ 47,00</h3>
           </div>
         </div>
 
@@ -68,18 +65,14 @@ function Porcoes() {
           <img src={pastel} alt="" />
           <div>
             <h2>Pastelzinho</h2>
-
             Sabores:
             <li>Carne</li>
             <li>Carne e Queijo</li>
             <li>Misto</li>
-
             <br />
-            R$ 35,90
+            <h3>R$ 35,90</h3>
           </div>
         </div>
-
-        
 
         <div className="item1">
           <img src={frango} alt="" />
@@ -87,11 +80,10 @@ function Porcoes() {
             <h2>Disco de Carne</h2>
             <span className="note">Obs: Temos também com Catupiry</span>
             <br />
-            R$ 29,90
+            <h3>R$ 29,90 </h3>
           </div>
         </div>
 
-      
         <div className="item1">
           <img src={quibe} alt="" />
           <div>
@@ -99,7 +91,7 @@ function Porcoes() {
             <li>Com Queijo</li>
             <li>Catupiry </li>
             <br />
-            R$ 29,90
+            <h3>R$ 29,90</h3>
           </div>
         </div>
 
@@ -110,7 +102,7 @@ function Porcoes() {
             <li>Arroz pequena </li>
             <li>Feijão Tropeiro </li>
             <br />
-            R$ 11,00 cada
+            <h3>R$ 11,00 cada</h3>
           </div>
         </div>
 
@@ -121,7 +113,7 @@ function Porcoes() {
             <li>Arroz Grande </li>
             <li>Feijão Tropeiro Grande</li>
             <br />
-            R$ 15,00 cada
+            <h3>R$ 15,00 cada</h3>
           </div>
         </div>
 
@@ -131,7 +123,7 @@ function Porcoes() {
             <h2>Salada</h2>
             Alface, Tomate, Palmito, Azeitona, Queijo Fresco.
             <br />
-            R$ 22,00 cada
+            <h3>R$ 22,00 cada</h3>
           </div>
         </div>
 
@@ -139,10 +131,10 @@ function Porcoes() {
           <img src={batata} alt="" />
           <div>
             <h2>Batata Frita tradicional</h2>
-            Batata frita tradicional, servida sem queijo ou outros 
+            Batata frita tradicional, servida sem queijo ou outros
             acompanhamentos.
             <br />
-            R$ 32,00
+            <h3>R$ 32,00</h3>
           </div>
         </div>
         <div className="item1">
@@ -151,7 +143,7 @@ function Porcoes() {
             <h2>Batata Frita Especial</h2>
             Acompanha Queijo cheddar, Bacon.
             <br />
-            R$ 47,00
+            <h3>R$ 47,00</h3>
           </div>
         </div>
 
@@ -160,7 +152,7 @@ function Porcoes() {
           <div>
             <h2>File de Tilápia Empanada</h2>
             <br />
-            R$ 47,00
+            <h3>R$ 47,00</h3>
           </div>
         </div>
         <div className="item1">
@@ -168,7 +160,7 @@ function Porcoes() {
           <div>
             <h2>File de Pintado Empanada</h2>
             <br />
-            R$ 47,00
+            <h3>R$ 47,00</h3>
           </div>
         </div>
 
@@ -177,7 +169,7 @@ function Porcoes() {
           <div>
             <h2>Costelinha de Tilápia Empanada</h2>
             <br />
-            R$ 47,00
+            <h3>R$ 47,00</h3>
           </div>
         </div>
 
@@ -186,10 +178,9 @@ function Porcoes() {
           <div>
             <h2>Costelinha de Pintado Empanada</h2>
             <br />
-            R$ 47,00
+            <h3>R$ 47,00</h3>
           </div>
         </div>
-
 
       </section>
     </div>

@@ -7,6 +7,7 @@ import espeto6 from '../assets/Espetos/bacon.svg';
 import espeto7 from '../assets/Espetos/kafta-carne.svg';
 import espeto8 from '../assets/Espetos/kafta-frango.svg';
 import espeto9 from '../assets/Espetos/espeto.svg';
+import espeto10 from '../assets/Espetos/provolone.webp';
 
 
 function Espetos(){
@@ -106,7 +107,7 @@ function Espetos(){
               </div>
 
               <div className="item1">
-                <img src={espeto7} alt="" />
+                <img src={espeto10} alt="" />
                 <div>
                   <h2>Provolone</h2>
                   R$ 10,00

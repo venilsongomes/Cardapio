@@ -8,25 +8,19 @@ function Jantinha() {
 
 
 return (
-    
-        <div className="linha" id="jantinha">
+    <div className="linha" id="jantinha">
         <section className="item">
-
             <h1>Jantinha + Espetos</h1>
 
-
             <div className="item1">
-                
-                    <img src={janta} alt="" />
-                
+                <img src={janta} alt="" />
                 <div>
                     <h2>Jantinha Picanha</h2>
                     Acompanha arroz, tropeiro, mandioca e vinagrete.
                     <br />
-                    R$ 22,00
+                    <h3>R$ 22,00</h3>
                 </div>
             </div>
-
 
             <div className="item1">
                 <img src={jantinha2} alt="" />
@@ -34,24 +28,19 @@ return (
                     <h2>jantinha Contra File</h2>
                     Acompanha arroz, tropeiro, mandioca e vinagrete.
                     <br />
-                    R$ 22,00
+                    <h3>R$ 22,00</h3>
                 </div>
             </div>
 
-
-           
             <div className="item1">
                 <img src={jantinha3} alt="" />
                 <div>
                     <h2>Jantinha Frango com Bacon</h2>
                     Acompanha arroz, tropeiro, mandioca e vinagrete.
                     <br />
-                    R$ 22,00
+                    <h3>R$ 22,00</h3>
                 </div>
             </div>
-            
-
-
 
             <div className="item1">
                 <img src={janta} alt="" />
@@ -59,7 +48,7 @@ return (
                     <h2>Jantinha com Queijo Coalho</h2>
                     Acompanha arroz, tropeiro, mandioca e vinagrete.
                     <br />
-                    R$ 22,00
+                    <h3>R$ 22,00</h3>
                 </div>
             </div>
             <div className="item1">
@@ -68,7 +57,7 @@ return (
                     <h2>Jantinha com Coração de Frango</h2>
                     Acompanha arroz, tropeiro, mandioca e vinagrete.
                     <br />
-                    R$ 22,00
+                    <h3>R$ 22,00</h3>
                 </div>
             </div>
             <div className="item1">
@@ -77,12 +66,12 @@ return (
                     <h2>Jantinha Kafta de Carne</h2>
                     Acompanha arroz, tropeiro, mandioca e vinagrete.
                     <br />
-                    R$ 22,00
+                    <h3>R$ 22,00</h3>
                 </div>
             </div>
         </section>
-        </div>
-    );
+    </div>
+);
 }
 
 
