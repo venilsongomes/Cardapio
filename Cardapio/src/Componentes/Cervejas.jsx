@@ -1,33 +1,40 @@
-import cerva from '../assets/cervejas/cerva.png';
-import cervaB from '../assets/cervejas/bhahma.webp';
-import cervaB2 from '../assets/cervejas/cerveja-Brahma-600.png';
-import cerva2 from '../assets/Cervejas/Antartica.png';
-import lata from '../assets/Cervejas/lata.jpg';
-import stela from '../assets/Cervejas/stela.webp';
-import bohemia from '../assets/Cervejas/bohemia-600.jpg';
-import original from '../assets/Cervejas/original.jpg';
-import spaten from '../assets/Cervejas/spaten.webp';
+import cerva from '../assets/cervejas/7.svg';
+import cervaB from '../assets/cervejas/bhahma.svg';
+
+import cervaB2 from '../assets/cervejas/8.svg';
+import cerva2 from '../assets/Cervejas/2.svg';
+
+import lata from '../assets/Cervejas/10.svg';
+
+import stela from '../assets/Cervejas/16.svg';
+import bohemia from '../assets/Cervejas/7.svg';
+import original from '../assets/Cervejas/11.svg';
+import spaten from '../assets/Cervejas/15.svg';
+
 import cachaca from '../assets/Drinks/cachaca.jpg';
 import campari from '../assets/Drinks/campari.avif';
-import duplo from '../assets/Cervejas/duplo.webp';
+import duplo from '../assets/Cervejas/9.svg';
+
+
 import red from '../assets/Drinks/red.png';
-import coca from '../assets/sem-alcool/coca.png';
 import redbull from '../assets/sem-alcool/redbull.png';
-import sucoLaranja from '../assets/sem-alcool/sucoLaranja.jpg';
-import sucoCaju from '../assets/sem-alcool/sucoCaju.avif';
-import sucoUva from '../assets/sem-alcool/sucoUva.jpeg';
 import agua from '../assets/sem-alcool/agua.jpg';
 import coca1 from '../assets/sem-alcool/coca-lt.svg';
 import suco from '../assets/sem-alcool/suco.svg';
-import skoll from '../assets/Cervejas/skol.webp';
-import skollg from '../assets/Cervejas/skol2.webp';
-import spatens from '../assets/Cervejas/spatens.webp';
-import antartica from '../assets/Cervejas/antartica.png';
-import amistel from '../assets/Cervejas/Amistel.webp';
-import bohemial from '../assets/Cervejas/bohemia.webp';
-import bud from '../assets/Cervejas/budi.jpg';
-import sol from '../assets/Cervejas/sol.webp';
-import antarticaL from '../assets/Cervejas/antartica.jpg';
+
+
+import skoll from '../assets/Cervejas/12.svg';
+import skollg from '../assets/Cervejas/13.svg';
+
+import spatens from '../assets/Cervejas/17.svg';
+
+import amistel from '../assets/Cervejas/Amistel.svg';
+import bohemial from '../assets/Cervejas/5.svg';
+import bud from '../assets/Cervejas/6.svg';
+
+import sol from '../assets/Cervejas/14.svg';
+import antarticaL from '../assets/Cervejas/1.svg';
+
 import extra from '../assets/sem-alcool/extra.jpg';
 import coca2 from '../assets/sem-alcool/coca.webp';
 import creme from '../assets/sem-alcool/creme.jpg';

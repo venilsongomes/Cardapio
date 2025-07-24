@@ -157,6 +157,11 @@ scroll-margin-top: 300px;
      font-size: 20px;
   
       }
+      & img{
+        background-image: url('./assets/logos/fundo.webp');
+        background-size: cover;
+        background-position: center;
+      }
     
   }
 
