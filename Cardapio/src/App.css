@@ -158,7 +158,7 @@ scroll-margin-top: 300px;
   
       }
       & img{
-        background-image: url('./assets/logos/fundo.webp');
+        background-image: url('./assets/logos/fundo.svg');
         background-size: cover;
         background-position: center;
       }

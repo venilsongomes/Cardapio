@@ -29,7 +29,7 @@ import skollg from '../assets/Cervejas/13.svg';
 import spatens from '../assets/Cervejas/17.svg';
 
 import amistel from '../assets/Cervejas/Amistel.svg';
-import bohemial from '../assets/Cervejas/5.svg';
+import bohemial from '../assets/Cervejas/bohemia.svg';
 import bud from '../assets/Cervejas/6.svg';
 
 import sol from '../assets/Cervejas/14.svg';
